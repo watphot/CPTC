@@ -1,0 +1,15 @@
+Código
+
+Variables
+
+Públicas
+
+Variables publicas siempre se pone en mayuscula la primera palabra
+
+Privadas
+
+Variables privadas siempre con una _ al principio y con mayuscula la primera palabra
+
+Scripts
+
+Siempre se seguirá una jerarquia de carpetas
