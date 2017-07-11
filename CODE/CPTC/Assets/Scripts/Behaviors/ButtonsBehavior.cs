@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ButtonsBehavior : MonoBehaviour {
 
+
+
 	// Use this for initialization
 	void Start () {
 		
@@ -13,4 +15,11 @@ public class ButtonsBehavior : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    void WebApplication()
+    {
+
+        Application.OpenURL("https://cartobol.es/");
+
+    }
 }

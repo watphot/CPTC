@@ -42,7 +42,7 @@ public class EsingPanel : MonoBehaviour {
         if (active)
         {
 
-            framesCounter += Time.deltaTime;
+            framesCounter += Time.unscaledDeltaTime;
 
             myImage.rectTransform.position = Vector2.Lerp(initValue, finalPosition.transform.position, hyb.Evaluate(framesCounter / framesDuration));
 
@@ -58,7 +58,7 @@ public class EsingPanel : MonoBehaviour {
         if (!active)
         {
 
-            framesCounter2 += Time.deltaTime;
+            framesCounter2 += Time.unscaledDeltaTime;
 
             myImage.rectTransform.position = Vector2.Lerp(myImage.rectTransform.position, startPosition.transform.position, hyb.Evaluate(framesCounter2 / framesDuration2));
 
