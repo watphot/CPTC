@@ -1,0 +1,587 @@
+fileFormatVersion: 2
+guid: 50b79f5949979414180ef98ca1c18b05
+timeCreated: 1499949895
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Box006
+    100004: Box007
+    100006: Box008
+    100008: Box009
+    100010: Box010
+    100012: Box012
+    100014: Box013
+    100016: Box014
+    100018: Cylinder002
+    100020: Cylinder003
+    100022: Cylinder004
+    100024: Dummy001
+    100026: Dummy002
+    100028: Dummy003
+    100030: Layer_003
+    100032: Layer_004
+    100034: Layer_005
+    100036: Layer_007
+    100038: Layer_009
+    100040: Layer_013
+    100042: Layer_021
+    100044: Layer_023
+    100046: Model_Base
+    100048: Object001
+    100050: Object001 1
+    100052: Object013
+    100054: Object014
+    100056: Object023
+    100058: Object024
+    100060: Object025
+    100062: Object029
+    100064: Object045
+    100066: Object047
+    100068: Object053
+    100070: Object054
+    100072: Object055
+    100074: Object056
+    100076: Object057
+    100078: Object058
+    100080: Object059
+    100082: Object060
+    100084: Object063
+    100086: Object064
+    100088: Object067
+    100090: Object069
+    100092: Object071
+    100094: Object072
+    100096: Object073
+    100098: Object074
+    100100: Object075
+    100102: Particle View 001
+    100104: Particle View 001 1
+    400000: //RootNode
+    400002: Box006
+    400004: Box007
+    400006: Box008
+    400008: Box009
+    400010: Box010
+    400012: Box012
+    400014: Box013
+    400016: Box014
+    400018: Cylinder002
+    400020: Cylinder003
+    400022: Cylinder004
+    400024: Dummy001
+    400026: Dummy002
+    400028: Dummy003
+    400030: Layer_003
+    400032: Layer_004
+    400034: Layer_005
+    400036: Layer_007
+    400038: Layer_009
+    400040: Layer_013
+    400042: Layer_021
+    400044: Layer_023
+    400046: Model_Base
+    400048: Object001
+    400050: Object001 1
+    400052: Object013
+    400054: Object014
+    400056: Object023
+    400058: Object024
+    400060: Object025
+    400062: Object029
+    400064: Object045
+    400066: Object047
+    400068: Object053
+    400070: Object054
+    400072: Object055
+    400074: Object056
+    400076: Object057
+    400078: Object058
+    400080: Object059
+    400082: Object060
+    400084: Object063
+    400086: Object064
+    400088: Object067
+    400090: Object069
+    400092: Object071
+    400094: Object072
+    400096: Object073
+    400098: Object074
+    400100: Object075
+    400102: Particle View 001
+    400104: Particle View 001 1
+    2300000: Box006
+    2300002: Box007
+    2300004: Box008
+    2300006: Box009
+    2300008: Box010
+    2300010: Box012
+    2300012: Box014
+    2300014: Cylinder002
+    2300016: Cylinder003
+    2300018: Cylinder004
+    2300020: Layer_003
+    2300022: Layer_004
+    2300024: Layer_005
+    2300026: Layer_007
+    2300028: Layer_009
+    2300030: Layer_013
+    2300032: Layer_021
+    2300034: Layer_023
+    2300036: Object001
+    2300038: Object001 1
+    2300040: Object013
+    2300042: Object014
+    2300044: Object023
+    2300046: Object024
+    2300048: Object025
+    2300050: Object029
+    2300052: Object045
+    2300054: Object047
+    2300056: Object053
+    2300058: Object054
+    2300060: Object055
+    2300062: Object056
+    2300064: Object057
+    2300066: Object058
+    2300068: Object059
+    2300070: Object060
+    2300072: Object063
+    2300074: Object064
+    2300076: Object067
+    2300078: Object069
+    2300080: Object071
+    2300082: Object072
+    2300084: Object073
+    2300086: Object074
+    2300088: Object075
+    3300000: Box006
+    3300002: Box007
+    3300004: Box008
+    3300006: Box009
+    3300008: Box010
+    3300010: Box012
+    3300012: Box014
+    3300014: Cylinder002
+    3300016: Cylinder003
+    3300018: Cylinder004
+    3300020: Layer_003
+    3300022: Layer_004
+    3300024: Layer_005
+    3300026: Layer_007
+    3300028: Layer_009
+    3300030: Layer_013
+    3300032: Layer_021
+    3300034: Layer_023
+    3300036: Object001
+    3300038: Object001 1
+    3300040: Object013
+    3300042: Object014
+    3300044: Object023
+    3300046: Object024
+    3300048: Object025
+    3300050: Object029
+    3300052: Object045
+    3300054: Object047
+    3300056: Object053
+    3300058: Object054
+    3300060: Object055
+    3300062: Object056
+    3300064: Object057
+    3300066: Object058
+    3300068: Object059
+    3300070: Object060
+    3300072: Object063
+    3300074: Object064
+    3300076: Object067
+    3300078: Object069
+    3300080: Object071
+    3300082: Object072
+    3300084: Object073
+    3300086: Object074
+    3300088: Object075
+    4300000: Box006
+    4300002: Box007
+    4300004: Box008
+    4300006: Box009
+    4300008: Box010
+    4300010: Box012
+    4300012: Box014
+    4300014: Cylinder002
+    4300016: Cylinder003
+    4300018: Cylinder004
+    4300020: Layer_003
+    4300022: Layer_004
+    4300024: Layer_005
+    4300026: Layer_009
+    4300028: Layer_021
+    4300030: Layer_023
+    4300032: Object001
+    4300034: Object001
+    4300036: Object013
+    4300038: Object014
+    4300040: Object023
+    4300042: Object024
+    4300044: Object069
+    4300046: Object071
+    4300048: Object072
+    4300050: Object073
+    4300052: Object025
+    4300054: Object045
+    4300056: Object047
+    4300058: Object053
+    4300060: Object054
+    4300062: Object055
+    4300064: Object056
+    4300066: Object057
+    4300068: Object058
+    4300070: Object059
+    4300072: Object060
+    4300074: Object063
+    4300076: Layer_013
+    4300078: Object064
+    4300080: Layer_007
+    4300082: Object029
+    4300084: Object067
+    4300086: Object074
+    4300088: Object075
+    7400000: Take 001
+    7400002: Take 0010
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 265
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Model_Base
+        weight: 1
+      - path: Model_Base/Box006
+        weight: 1
+      - path: Model_Base/Box007
+        weight: 1
+      - path: Model_Base/Box008
+        weight: 1
+      - path: Model_Base/Box009
+        weight: 1
+      - path: Model_Base/Box010
+        weight: 1
+      - path: Model_Base/Box012
+        weight: 1
+      - path: Model_Base/Box013
+        weight: 1
+      - path: Model_Base/Box014
+        weight: 1
+      - path: Model_Base/Cylinder002
+        weight: 1
+      - path: Model_Base/Cylinder003
+        weight: 1
+      - path: Model_Base/Cylinder004
+        weight: 1
+      - path: Model_Base/Layer_003
+        weight: 1
+      - path: Model_Base/Layer_004
+        weight: 1
+      - path: Model_Base/Layer_005
+        weight: 1
+      - path: Model_Base/Layer_009
+        weight: 1
+      - path: Model_Base/Layer_013
+        weight: 1
+      - path: Model_Base/Layer_013/Dummy003
+        weight: 1
+      - path: Model_Base/Layer_013/Dummy003/Dummy002
+        weight: 1
+      - path: Model_Base/Layer_013/Dummy003/Dummy002/Layer_007
+        weight: 1
+      - path: Model_Base/Layer_013/Dummy003/Object064
+        weight: 1
+      - path: Model_Base/Layer_021
+        weight: 1
+      - path: Model_Base/Layer_023
+        weight: 1
+      - path: Model_Base/Object001
+        weight: 1
+      - path: Model_Base/Object001 1
+        weight: 1
+      - path: Model_Base/Object013
+        weight: 1
+      - path: Model_Base/Object014
+        weight: 1
+      - path: Model_Base/Object023
+        weight: 1
+      - path: Model_Base/Object024
+        weight: 1
+      - path: Model_Base/Object024/Dummy001
+        weight: 1
+      - path: Model_Base/Object024/Dummy001/Object069
+        weight: 1
+      - path: Model_Base/Object024/Dummy001/Object071
+        weight: 1
+      - path: Model_Base/Object024/Dummy001/Object072
+        weight: 1
+      - path: Model_Base/Object024/Dummy001/Object073
+        weight: 1
+      - path: Model_Base/Object025
+        weight: 1
+      - path: Model_Base/Object029
+        weight: 1
+      - path: Model_Base/Object045
+        weight: 1
+      - path: Model_Base/Object047
+        weight: 1
+      - path: Model_Base/Object053
+        weight: 1
+      - path: Model_Base/Object054
+        weight: 1
+      - path: Model_Base/Object055
+        weight: 1
+      - path: Model_Base/Object056
+        weight: 1
+      - path: Model_Base/Object057
+        weight: 1
+      - path: Model_Base/Object058
+        weight: 1
+      - path: Model_Base/Object059
+        weight: 1
+      - path: Model_Base/Object060
+        weight: 1
+      - path: Model_Base/Object063
+        weight: 1
+      - path: Model_Base/Object067
+        weight: 1
+      - path: Model_Base/Object074
+        weight: 1
+      - path: Model_Base/Object075
+        weight: 1
+      - path: Particle View 001
+        weight: 1
+      - path: Particle View 001 1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Take 0010
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 265
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Model_Base
+        weight: 1
+      - path: Model_Base/Box006
+        weight: 1
+      - path: Model_Base/Box007
+        weight: 1
+      - path: Model_Base/Box008
+        weight: 1
+      - path: Model_Base/Box009
+        weight: 1
+      - path: Model_Base/Box010
+        weight: 1
+      - path: Model_Base/Box012
+        weight: 1
+      - path: Model_Base/Box013
+        weight: 1
+      - path: Model_Base/Box014
+        weight: 1
+      - path: Model_Base/Cylinder002
+        weight: 1
+      - path: Model_Base/Cylinder003
+        weight: 1
+      - path: Model_Base/Cylinder004
+        weight: 1
+      - path: Model_Base/Layer_003
+        weight: 1
+      - path: Model_Base/Layer_004
+        weight: 1
+      - path: Model_Base/Layer_005
+        weight: 1
+      - path: Model_Base/Layer_009
+        weight: 1
+      - path: Model_Base/Layer_013
+        weight: 1
+      - path: Model_Base/Layer_013/Dummy003
+        weight: 1
+      - path: Model_Base/Layer_013/Dummy003/Dummy002
+        weight: 1
+      - path: Model_Base/Layer_013/Dummy003/Dummy002/Layer_007
+        weight: 1
+      - path: Model_Base/Layer_013/Dummy003/Object064
+        weight: 1
+      - path: Model_Base/Layer_021
+        weight: 1
+      - path: Model_Base/Layer_023
+        weight: 1
+      - path: Model_Base/Object001
+        weight: 1
+      - path: Model_Base/Object001 1
+        weight: 1
+      - path: Model_Base/Object013
+        weight: 1
+      - path: Model_Base/Object014
+        weight: 1
+      - path: Model_Base/Object023
+        weight: 1
+      - path: Model_Base/Object024
+        weight: 1
+      - path: Model_Base/Object024/Dummy001
+        weight: 1
+      - path: Model_Base/Object024/Dummy001/Object069
+        weight: 1
+      - path: Model_Base/Object024/Dummy001/Object071
+        weight: 1
+      - path: Model_Base/Object024/Dummy001/Object072
+        weight: 1
+      - path: Model_Base/Object024/Dummy001/Object073
+        weight: 1
+      - path: Model_Base/Object025
+        weight: 1
+      - path: Model_Base/Object029
+        weight: 1
+      - path: Model_Base/Object045
+        weight: 1
+      - path: Model_Base/Object047
+        weight: 1
+      - path: Model_Base/Object053
+        weight: 1
+      - path: Model_Base/Object054
+        weight: 1
+      - path: Model_Base/Object055
+        weight: 1
+      - path: Model_Base/Object056
+        weight: 1
+      - path: Model_Base/Object057
+        weight: 1
+      - path: Model_Base/Object058
+        weight: 1
+      - path: Model_Base/Object059
+        weight: 1
+      - path: Model_Base/Object060
+        weight: 1
+      - path: Model_Base/Object063
+        weight: 1
+      - path: Model_Base/Object067
+        weight: 1
+      - path: Model_Base/Object074
+        weight: 1
+      - path: Model_Base/Object075
+        weight: 1
+      - path: Particle View 001
+        weight: 1
+      - path: Particle View 001 1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
