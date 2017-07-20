@@ -10,6 +10,7 @@ public class ButtonsBehavior : MonoBehaviour {
     private bool Speed;
     public Rotation rotation;
     public Animator Animator;
+    public Animator AnimatorCam;
 
     // Use this for initialization
     void Start () {
@@ -88,6 +89,7 @@ public class ButtonsBehavior : MonoBehaviour {
     {
 
         Animator.SetTrigger("Replay");
+        AnimatorCam.SetTrigger("ReplayC");
         
     }
 

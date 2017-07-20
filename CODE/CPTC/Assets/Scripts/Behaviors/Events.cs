@@ -5,6 +5,7 @@ using UnityEngine;
 public class Events : MonoBehaviour {
 
     public GameObject myParticleSystem;
+    public Rotation RotationScript;
 
 	// Use this for initialization
 	void Start () {
@@ -22,6 +23,7 @@ public class Events : MonoBehaviour {
     {
 
         myParticleSystem.active = false;
+        RotationScript.enabled = true;
 
     }
 

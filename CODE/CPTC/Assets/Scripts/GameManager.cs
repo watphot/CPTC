@@ -9,7 +9,11 @@ public class GameManager : MonoBehaviour {
     public Sprite_Movement1 ReturnCamera;
     public Sprite_Movement1 ReturnMachine;
     public Animator Animator;
+    public Animator AnimatorBolsa;
+    public Animator AnimatorCam;
     public bool PlayAnimation;
+    public bool PlayAnimationBolsa;
+    public bool PlayAnimationCam;
     public bool SliderActive;
     public bool ActiveLobby;
 
@@ -36,17 +40,20 @@ public class GameManager : MonoBehaviour {
     {
 
         SliderActive = !SliderActive;
-        RotationScript.enabled = !RotationScript.enabled;
+        RotationScript.enabled = false;
         Camera.enabled = !Camera.enabled;
         ReturnCamera.enabled = !ReturnCamera.enabled;
         ReturnMachine.enabled = !ReturnMachine.enabled;
+        PlayAnimationCam = !PlayAnimationCam;
+        AnimatorCam.SetBool("LoopC", PlayAnimationCam);
 
         yield return new WaitForSeconds(1f);
                 
         PlayAnimation = !PlayAnimation;
+        PlayAnimationBolsa = !PlayAnimationBolsa;        
                 
         Animator.SetBool("Loop", PlayAnimation);
-        
+        AnimatorBolsa.SetBool("LoopB", PlayAnimationBolsa);        
 
         yield return new WaitForSeconds(0f);
 
