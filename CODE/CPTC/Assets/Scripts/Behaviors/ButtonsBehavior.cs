@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ButtonsBehavior : MonoBehaviour {
 
@@ -12,7 +13,8 @@ public class ButtonsBehavior : MonoBehaviour {
     public Animator Animator;
     public Animator AnimatorCam;
 	public Animator AnimatorBox;
-
+    public Animator AnimatorBolsa;
+        
     // Use this for initialization
     void Start () {
 
@@ -24,9 +26,8 @@ public class ButtonsBehavior : MonoBehaviour {
 	void Update () {
 
         Debug.Log(Time.timeScale);
-
-		
-	}
+                
+    }
 
     public void WebApplication()
     {
@@ -35,29 +36,43 @@ public class ButtonsBehavior : MonoBehaviour {
 
     }
 
-    public void NegativeTimeScaleTime()
+    public void Play()
     {
 
-        TimeScale = !TimeScale;
+        TimeScale = true;
 
-        if (TimeScale)
+        if (TimeScale && Speed)
         {
 
-            Time.timeScale = 0;
+            Time.timeScale = 1f;
 
         }
 
-        else if (!TimeScale && !Speed)
+        else if (TimeScale && !Speed)
         {
 
             Time.timeScale = 0.5f;
 
         }
 
-        else if (!TimeScale && Speed)
+    }
+
+    public void Pause()
+    {
+
+        TimeScale = false;
+
+        if (!TimeScale && Speed)
         {
 
-            Time.timeScale = 1f;
+            Time.timeScale = 0f;
+
+        }
+
+        else if (!TimeScale && !Speed)
+        {
+
+            Time.timeScale = 0f;
 
         }
 
@@ -66,18 +81,16 @@ public class ButtonsBehavior : MonoBehaviour {
     public void NegativeSpeed()
     {
 
-        //rotation.enabled = !rotation.enabled;
-
         Speed = !Speed;
 
-        if (Speed && !TimeScale)
+        if (Speed)
         {
 
             Time.timeScale = 1f;
 
         }
 
-        else if (!Speed && !TimeScale)
+        else if (!Speed)
         {
 
             Time.timeScale = 0.5f;
@@ -92,7 +105,29 @@ public class ButtonsBehavior : MonoBehaviour {
         Animator.SetTrigger("Replay");
         AnimatorCam.SetTrigger("ReplayC");
 		AnimatorBox.SetTrigger("ReplayBX");
+        AnimatorBolsa.SetTrigger("ReplayB");
         
+    }
+
+    public void ChangeAutomaticButton()
+    {
+
+
+
+    }
+
+    public void ChangePauseButton()
+    {
+
+
+
+    }
+
+    public void ChangePlayButton()
+    {
+
+
+
     }
 
 }
