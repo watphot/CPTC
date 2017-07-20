@@ -14,7 +14,19 @@ public class ButtonsBehavior : MonoBehaviour {
     public Animator AnimatorCam;
 	public Animator AnimatorBox;
     public Animator AnimatorBolsa;
-        
+
+    public Image PlayButton;
+    public Sprite PlaySprite1;
+    public Sprite PlaySprite2;
+
+    public Image PauseButton;
+    public Sprite PauseSprite1;
+    public Sprite PauseSprite2;
+
+    public Image SpeedButton;
+    public Sprite SpeedSprite1;
+    public Sprite SpeedSprite2;
+
     // Use this for initialization
     void Start () {
 
@@ -26,7 +38,36 @@ public class ButtonsBehavior : MonoBehaviour {
 	void Update () {
 
         Debug.Log(Time.timeScale);
-                
+
+        if (TimeScale == true)
+        {
+
+            PlayButton.sprite = PlaySprite1;
+            PauseButton.sprite = PauseSprite2;
+
+        }
+        else if (TimeScale == false)
+        {
+
+            PlayButton.sprite = PlaySprite2;
+            PauseButton.sprite = PauseSprite1;
+
+        }
+
+        if (Speed == true)
+        {
+
+            SpeedButton.sprite = SpeedSprite1;
+
+        }
+
+        else if (Speed == false)
+        {
+
+            SpeedButton.sprite = SpeedSprite2;
+
+        }
+
     }
 
     public void WebApplication()
