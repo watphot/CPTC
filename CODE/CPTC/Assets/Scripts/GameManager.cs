@@ -11,9 +11,11 @@ public class GameManager : MonoBehaviour {
     public Animator Animator;
     public Animator AnimatorBolsa;
     public Animator AnimatorCam;
+	public Animator AnimatorBox;
     public bool PlayAnimation;
     public bool PlayAnimationBolsa;
     public bool PlayAnimationCam;
+	public bool PlayAnimationBox;
     public bool SliderActive;
     public bool ActiveLobby;
 
@@ -46,6 +48,8 @@ public class GameManager : MonoBehaviour {
         ReturnMachine.enabled = !ReturnMachine.enabled;
         PlayAnimationCam = !PlayAnimationCam;
         AnimatorCam.SetBool("LoopC", PlayAnimationCam);
+		PlayAnimationBox = !PlayAnimationBox;
+		AnimatorBox.SetBool("LoopBX", PlayAnimationBox);
 
         yield return new WaitForSeconds(1f);
                 
